@@ -1,0 +1,14 @@
+Source: oosensors
+Section: utils
+Priority: optional
+Maintainer: openOODA-tools <ops@openooda.org>
+Standards-Version: 4.6.2
+Build-Depends: debhelper-compat (= 13)
+
+Package: oosensors
+Architecture: amd64
+Depends: libc6
+Description: THERMAL SENSORS
+ Reads hardware thermal sensors, fan RPM, voltage rails, and throttling alerts.
+ Capability-bounded openOODA utility with zero ambient authority,
+ oote theme palettes, and native Model Context Protocol (MCP) surface.
